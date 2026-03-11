@@ -7,6 +7,8 @@ export function getLevel(userId) {
   if (response.status === 'ok') {
      return `Ваш текущий уровень: ${response.level}`; 
   }
-  
-  return `Информация об уровне временно недоступна`;
+return `Информация об уровне временно недоступна`;
 }
+
+  
+  
